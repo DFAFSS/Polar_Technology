@@ -1,0 +1,11 @@
+{
+	"name": "白铜",
+	"description": "铜和镍合成的金属，硬度更高",
+	"cost":0.5,
+	"color": "#CFCFCF",
+	"healthScaling": 2,
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0
+}

@@ -1,0 +1,35 @@
+{
+	"type": "Drill",
+	"name":"小钻",
+    "description": "霜原星最基础的钻头\n可开采基础的矿物",
+    "health":200,
+    "itemCapacity":10,
+    "tier":1,
+    "drillTime":320,
+    "size": 2,
+    "hasLiquids": true,
+	"alwaysUnlocked":true,
+	"liquidCapacity":10,
+    "drawMineItem":true,
+    "drillEffect": "mineHuge",
+    "updateEffect":"pulverizeRed",
+    "drawRim":false,
+    "heatColor":"FF5511",
+    "rotateSpeed": 4,
+    "warmupSpeed": 1.5,
+    "liquidBoostIntensity": 1.1,
+    "consumes": {
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.03,
+			"booster": true,
+			"optional": true
+		}
+    },
+    "requirements": [
+        "copper/15"
+    ],
+    "category": "production",
+    "research": "frozen_core"
+    
+}

@@ -1,0 +1,12 @@
+{
+    "type": "wall",
+    "name": "大型镍墙",
+    "description":"保护己方建筑，挡下敌方炮弹。",
+    "size": 2,
+    "health": 1600,
+    "category": "defense",
+    "requirements": [
+        "nickel/24"
+    ],
+    "research":"nickel_wall"
+}

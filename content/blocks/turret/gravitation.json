@@ -1,0 +1,25 @@
+{
+    "type": "TractorBeamTurret",
+    "name": "引力",
+    "description": "通过牵引光束拉扯空中目标，并其造成大量伤害",
+    "category": "turret",
+    "requirements": [
+        "silicon/210",
+        "nickel/50",
+        "titanium/40",
+        "graphite/50"
+    ],
+
+    "hasPower": true,
+    "size": 3,
+    "force": 35.00,
+    "scaledForce": 15.00,
+    "range": 450.00,
+    "damage": 0.5,
+    "health": 900,
+    "rotateSpeed": 10,
+    "consumes": {
+        "power": 5.00
+    },
+    "research": "scatter_duo"
+}

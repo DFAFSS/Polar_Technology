@@ -1,0 +1,12 @@
+{
+    "type": "wall",
+    "name": "冰墙",
+    "description":"保护己方建筑，挡下敌方炮弹。",
+    "size": 1,
+    "health": 350,
+    "category": "defense",
+    "requirements": [
+        "ice/6"
+    ],
+    "research":"nickel_wall"
+}

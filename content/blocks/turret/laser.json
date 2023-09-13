@@ -1,0 +1,49 @@
+{
+    "type":"ContinuousTurret",
+	"name": "镭射",
+	"description": "发射大型激光灼烧敌人",
+	"size": 3,
+	"health": 1200,
+	"category": "turret",
+	"shootSound": "smelter",
+	"aimChangeSpeed":1,
+	"shootWarmupSpeed":0.03,
+    "research": "herald",
+    "unitSort": "strongest",
+	"range": 400,
+	"targetAir":true,
+	"targetGround":true,
+	"rotateSpeed": 3,
+	"consumes":{
+	"power":1.5,
+	"liquid": 
+	{"liquid": "water", "amount": 0.3 }
+	},
+	"shootType":{
+	"type":"PointLaserBulletType",
+	"buildingDamageMultiplier":0.3,
+	"damage":20,
+	"hitEffect":{
+                    "type":"MultiEffect",
+                    "effects":[
+                        {
+                            "type":"WaveEffect",
+                            "lifetime":12,
+                            "colorFrom":"FEB380FF",
+                            "colorTo":"EA8878C6",
+                            "sizeFrom":0,
+                            "sizeTo":10,
+                            "strokeFrom":12,
+                            "strokeTo":0
+                            }
+                        ]
+                    }
+	            },
+    "requirements":[
+        "titanium/120",
+        "graphite/100",
+        "silicon/100",
+        "cupronickel/80"
+    ]
+ }
+        

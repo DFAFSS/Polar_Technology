@@ -1,0 +1,76 @@
+{
+    "type": "LiquidTurret",
+    "name": "海狮",
+    "description": "发射强劲液体流，用水做弹药时能够自动灭火",
+    "requirements": [
+        "cupronickel/30","lead/75","nickel/40","titanium/40"
+    ],
+    "reload":0.6,
+    "consumes": { "power": 3},
+    "shoot": {
+        "shots": 10,
+        "shotDelay": 3},
+    "ammoTypes": {
+        "water":{
+            "type": "LiquidBulletType",
+            "liquid": "water",
+            "lifetime":60,
+            "speed":7,
+            "puddleSize":8,
+            "orbSize":4,
+            "knockback":0.1,
+            "statusDuration":600,
+            "status":"wet",	
+            "damage": 1
+            },   
+            "oil":{
+            "type": "LiquidBulletType",
+            "liquid": "oil",
+            "lifetime":60,
+            "speed":8,
+            "puddleSize":8,
+            "orbSize":4,
+            "knockback":1.5,
+            "statusDuration":600,
+            "status":"tarred",	
+            "damage": 0.1,
+            "incendAmount": 1,
+            "incendSpread": 1,
+            "incendChance": 1
+            },
+            "slag":{
+            "type": "LiquidBulletType",
+            "liquid": "slag",
+            "lifetime":60,
+            "speed":7,
+            "puddleSize":8,
+            "orbSize":4,
+            "knockback":1.1,
+            "statusDuration":600,
+            "status":"melting",	
+            "damage": 9.5
+            },
+            "cryofluid":{
+            "type": "LiquidBulletType",
+            "liquid": "cryofluid",
+            "lifetime":60,
+            "speed":7,
+            "puddleSize":8,
+            "orbSize":4,
+            "knockback":1.1,
+            "statusDuration":600,
+            "status":"freezing",	
+            "damage": 0.4
+            }
+    },
+    "category": "turret",
+    "size": 3,
+    "recoliAmount": 0.00,
+    "reloadTime": 5,
+    "inaccuracy": 5.00,
+    "shootCone": 50.00,
+    "liquidCapacity": 150.00,
+    "range": 400,
+    "health": 900,
+    "research": "herald"
+} 

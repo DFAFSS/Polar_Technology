@@ -1,0 +1,12 @@
+{
+    "type": "wall",
+    "name": "白铜墙",
+    "description":"保护己方建筑，挡下敌方炮弹。",
+    "size": 1,
+    "health": 500,
+    "category": "defense",
+    "requirements": [
+        "cupronickel/6"
+    ],
+    "research":"ice_wall"
+}

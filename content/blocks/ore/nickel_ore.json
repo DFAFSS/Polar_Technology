@@ -1,0 +1,13 @@
+{
+    "name":"镍",
+    "type":"OreBlock",
+    "playerUnmineable":false,
+    "variants":3,
+    "itemDrop":"nickel",
+    "mapColor":"#ADA911",
+    "useColor":true,
+    "hardness":0,
+    "oreDefault":true,
+    "oreThreshold":0.85,
+    "oreScale":30
+    }

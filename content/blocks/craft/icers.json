@@ -1,0 +1,20 @@
+{
+    "type": "Separator",
+    "description":"把水冻成冰",
+    "name": "结冰器",
+    "category": "crafting",
+    "requirements": [
+        "copper/30","nickel/10"
+    ],
+    "results": [
+        "ice/10"
+    ],
+    "hasPower": true,
+    "craftTime": 45.00,
+    "size": 2,
+    "consumes": {
+        "power": 0.5,
+        "liquid": "water/0.1"
+    },
+    "research": "smal_drills"
+}

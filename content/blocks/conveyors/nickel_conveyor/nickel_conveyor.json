@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "镍传送带",
+	"description": "镍制传送带，比普通传送带快",
+	"health": 45,
+	"requirements": [
+        "nickel/1"
+	],
+	"category": "distribution",
+	"research":"frozen_core",
+	"speed": 0.08,
+	"displayedSpeed": 3
+}

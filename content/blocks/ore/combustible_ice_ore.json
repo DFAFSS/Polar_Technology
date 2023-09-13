@@ -1,0 +1,13 @@
+{
+    "name":"可燃冰",
+    "type":"OreBlock",
+    "playerUnmineable":false,
+    "variants":3,
+    "itemDrop":"combustible_ice",
+    "mapColor":"#b4b0f8",
+    "useColor":true,
+    "hardness":1,
+    "oreDefault":true,
+    "oreThreshold":0.85,
+    "oreScale":30
+}

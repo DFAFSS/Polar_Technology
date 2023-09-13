@@ -1,0 +1,12 @@
+{
+    "type": "wall",
+    "name": "大型冰墙",
+    "description":"保护己方建筑，挡下敌方炮弹。",
+    "size": 2,
+    "health": 1400,
+    "category": "defense",
+    "requirements": [
+        "ice/24"
+    ],
+    "research":"ice_wall"
+}

@@ -1,0 +1,33 @@
+{   
+        "type":"GenericCrafter",
+        "name":"白铜冶炼厂",
+        "outputItem":"cupronickel/1",
+        "itemCapacity":10,
+        "health":180,
+        "craftTime":38,
+        "description":"把镍和铜冶炼成白铜",
+        "size":2,
+        "drawer":{
+            "type":"DrawMulti",
+            "drawers":[
+                "DrawDefault",
+                "DrawFlame"
+                ]
+        },
+        "consumes":{
+            "power":0.5,
+            "items":{
+                "items":[
+                    "copper/2",
+                    "nickel/1"
+                ]
+            }
+        },
+        "requirements":[
+            "copper/30",
+            "nickel/15",
+            "graphite/15"
+        ],
+        "research":"icers",
+        "category":"crafting"
+}

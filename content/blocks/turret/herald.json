@@ -1,0 +1,59 @@
+{
+    "type": "ItemTurret",
+    "name": "先驱",
+    "description": "快速向敌人发射子弹",
+    "shootSound": "malignShoot",
+    "targetAir":true,
+	"targetGround":true,
+    "health": 800,
+    "reloadTime": 0.01,
+    "size": 3,
+    "spread": 15,
+    "shootCone": 25,
+    "recoilAmount": 3,
+    "maxAmmo":30,
+    "rotateSpeed": 10,
+    "alternate": true, 
+    "ammoPerShot": 5,
+    "inaccuracy":2,
+
+    "shots": 5,
+    "range": 230,
+    "shootType": {
+        "shootEffect": {
+            "type": "WaveEffect",
+            "lifetime": 6,
+            "sizeFrom": 1,
+            "sizeTo": 10,
+            "strokeFrom": 1.3,
+            "strokeTo": 0,
+            "colorFrom": "ffffff",
+            "colorTo": "FEEBB3FF"
+        }
+    },
+    "ammoTypes": {
+        "titanium":{
+            "type": "BasicBulletType",
+            "speed": 6.00,
+            "damage": 20,
+            "width": 15.00,
+            "height": 13.00,
+            "lifetime": 50
+        },
+        "graphite":{
+            "type": "BasicBulletType",
+            "speed": 6.00,
+            "damage": 30,
+            "width": 15.00,
+            "height": 13.00,
+            "lifetime": 50
+        }
+    },
+    "requirements": [
+        "nickel/40",
+        "titanium/20",
+        "graphite/50"
+    ],
+    "category": "turret",
+    "research": "scatter_duo"
+}

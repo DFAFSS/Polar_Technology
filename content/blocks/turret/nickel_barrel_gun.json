@@ -1,0 +1,35 @@
+{
+    "type": "ItemTurret",
+    "name": "镍管",
+    "description": "镍制的炮塔，霜原星最基础的炮塔。",
+    "shootSound": "shoot",
+    "targetAir":true,
+	"targetGround":true,
+    "health": 300,
+    "reloadTime": 3,
+    "size": 1,
+    "spread": 15,
+    "shootCone": 25,
+    "recoilAmount": 3,
+    "maxAmmo":30,
+    "rotateSpeed": 10,
+    "inaccuracy":2,
+    "heatColor":"turretHeat",
+    "shots": 1,
+    "range": 110,
+    "ammoTypes": {
+        "nickel":{
+            "type": "BasicBulletType",
+            "speed": 3.00,
+            "damage": 8,
+            "width": 10.00,
+            "height": 13.00,
+            "lifetime": 85
+        }
+    },
+    "requirements": [
+        "nickel/15"
+    ],
+    "category": "turret",
+    "research": "frozen_core"
+}

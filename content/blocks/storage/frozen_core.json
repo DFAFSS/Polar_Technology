@@ -1,0 +1,23 @@
+{
+	"name":"冰冻核心",
+	"description":"基地的核心，霜原星最原始的核心",
+	"type": "CoreBlock",
+	"itemCapacity":5000,
+	"hasItems": true,
+    "health":2000,
+	"unitCapModifier":50,
+	"unitType":"alpha",
+	"size":3,
+	"alwaysUnlocked":true,
+	"requirements": [
+        "copper/1000",
+        "lead/500",
+        "nickel/500"
+	    ],
+	"category": "effect",
+    "research": {
+        "root":true,
+        "name": "霜原星",
+        "planet": "霜原星"
+        }
+}

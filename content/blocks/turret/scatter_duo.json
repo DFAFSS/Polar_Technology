@@ -1,0 +1,39 @@
+{
+    "type": "ItemTurret",
+    "name": "散射",
+    "description": "用于攻击空军，发射破碎子弹",
+    "shootSound": "shoot",
+    "targetAir":true,
+	"targetGround":false,
+    "health": 750,
+    "reloadTime": 1.5,
+    "size": 2,
+    "spread": 15,
+    "shootCone": 25,
+    "recoilAmount": 3,
+    "maxAmmo":30,
+    "rotateSpeed": 15,
+    "inaccuracy":5,
+    "heatColor":"turretHeat",
+    "shots": 1,
+    "range": 300,
+    "ammoTypes": {
+        "lead":{
+            "type": "FlakBulletType",
+            "speed": 4.20,
+            "damage": 5,
+            "lifetime": 60.00,
+            "ammoMultiplier": 4.00,
+            "width": 6.00,
+            "height": 8.00,
+            "splashDamage": 40.50,
+            "splashDamageRadius": 15.00
+        }
+    },
+    "requirements": [
+        "nickel/20",
+        "lead/20"
+    ],
+    "category": "turret",
+    "research": "nickel_barrel_gun"
+}
